@@ -1,0 +1,28 @@
+#include <stdio.h>
+int product(int x,int y)
+{
+    int product;
+    product = x*y;
+    printf("%d x %d = %d",x,y,product);
+    return product;
+}
+
+int main()
+{
+    int a,b;
+    
+    printf("Enter the values: \n");
+    
+    printf("a = ");
+    scanf("%d",&a);
+    printf("b = ");
+    scanf("%d",&b);
+    
+    printf("\n");
+    
+    product(a,b);
+    
+    
+    
+    return 0;
+}
