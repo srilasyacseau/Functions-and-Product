@@ -3,7 +3,7 @@ int product(int x,int y)
 {
     int product;
     product = x*y;
-    printf("%d x %d = %d",x,y,product);
+    printf("\t%d x %d = %d",x,y,product);
     return product;
 }
 
@@ -11,11 +11,11 @@ int main()
 {
     int a,b;
     
-    printf("Enter the values: \n");
+    printf("\tEnter the values: \n");
     
-    printf("a = ");
+    printf("\ta = ");
     scanf("%d",&a);
-    printf("b = ");
+    printf("\tb = ");
     scanf("%d",&b);
     
     printf("\n");
